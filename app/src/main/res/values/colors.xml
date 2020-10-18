@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1BA0E2</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#1BA0E2</color>
+    <color name="colorWhite">#ffffff</color>
+
+
+    <color name="colorTextNonActived">#CDD0D1</color>
+
+    <color name="colorTextTitleSample">#AFDDF5</color>
+
+    <color name="colorTextHeader">#354148</color>
+    <color name="colorTextHeaderTitle">#03121A</color>
+
+    <color name="colorTextHoliday">#E7090E</color>
+</resources>

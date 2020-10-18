@@ -1,0 +1,5 @@
+include ':CalendarHorizontal'
+include ':CalendarVertical'//include ':CalendarHorizontal'
+//include ':CalendarVertical'
+include ':app'
+rootProject.name = "DatePickerAndroid"

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#f5f5f5"
+    android:id="@+id/lay_parent">
+
+    <com.khoiron.calendarhorizontal.lib.CalendarHorizontal
+        android:layout_width="match_parent"
+        android:id="@+id/calendar_view_horizontal"
+        android:layout_height="wrap_content">
+    </com.khoiron.calendarhorizontal.lib.CalendarHorizontal>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_dot_tree"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="35dp"></ImageView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="15dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="0dp"
+        android:layout_below="@+id/calendar_view_horizontal"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tidak ada acara"
+                android:textSize="16dp"
+                android:textColor="@color/colorTitleMonthXiaomi"></TextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
