@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1BA0E2</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#ffffff</color>
+
+
+    <color name="colorTextNonActived">#CDD0D1</color>
+    <color name="backgroundGray">#f5f5f5</color>
+
+    <color name="colorTextTitleSample">#AFDDF5</color>
+
+    <color name="colorTextHeader">#354148</color>
+    <color name="colorTextHeaderTitle">#03121A</color>
+
+    <color name="colorTextHoliday">#E7090E</color>
+    <color name="colorTitleDayXiaomi">#939393</color>
+    <color name="colorTitleMonthXiaomi">#000000</color>
+    <color name="colorDayActived">#181818</color>
+    <color name="colorDayNonActived">#c9c9c9</color>
+    <color name="colorLineHeader">#dcdcdc</color>
+
+</resources>

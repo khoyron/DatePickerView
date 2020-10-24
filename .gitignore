@@ -12,6 +12,5 @@
 /captures
 app/build/
 CalendarVertical
-CalendarHorizontal
 .externalNativeBuild
 .cxx

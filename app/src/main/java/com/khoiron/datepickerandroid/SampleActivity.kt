@@ -45,12 +45,6 @@ class SampleActivity : BaseActivity() {
         linearLayout.visibility = View.VISIBLE
     }
 
-    fun openCalendarVertical(view: View){
-        val bundle = Bundle()
-        bundle.putBoolean("type_selected",double_selected_vertical)
-        gotoActivityResultWithBundle(SampleSliderDatePickerVertical::class.java,bundle,1)
-    }
-
     fun openCalendarHorizontal(view: View){
         val bundle = Bundle()
         bundle.putBoolean("type_selected",double_selected_horizontal)
