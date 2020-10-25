@@ -5,11 +5,13 @@
 
 Android date picker with custom view , can be for single selection or range selection , date result format etc.
 
+<<<<<<< HEAD
 
 <img align="left" width="220" src="https://raw.githubusercontent.com/khoyron/DatePickerView/master/image/calendar_vertical_sample.jpg"/>
 <img align="left" width="250" src="https://raw.githubusercontent.com/khoyron/DatePickerView/master/image/calendar_horizontal_sample.jpg"/>
 <img align="center" width="250" src="https://raw.githubusercontent.com/khoyron/DatePickerView/master/image/demo.gif?raw=true"></a>
 <img align="left" width="220" src="https://raw.githubusercontent.com/khoyron/DatePickerView/master/image/calendar_vertical.jpg"/>
+<img align="left" width="250" src="https://raw.githubusercontent.com/khoyron/DatePickerView/master/image/calendar_vertical.jpg"/>
 <img align="left" width="250" src="https://raw.githubusercontent.com/khoyron/DatePickerView/master/image/calendar_horizontal_singel_selected.jpg"/>
 <img align="center" width="250" src="https://raw.githubusercontent.com/khoyron/DatePickerView/master/image/calendar_horizontal_double_selected.jpg"/><br />
 
