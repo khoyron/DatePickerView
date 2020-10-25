@@ -5,11 +5,10 @@
 
 Android date picker with custom view
 
-<img align="left" width="250" src="https://raw.githubusercontent.com/khoyron/DatePickerView/master/image/calendar_vertical.jpg"/>
+<img align="left" width="220" src="https://raw.githubusercontent.com/khoyron/DatePickerView/master/image/calendar_vertical.jpg"/>
 <img align="left" width="250" src="https://raw.githubusercontent.com/khoyron/DatePickerView/master/image/calendar_horizontal_singel_selected.jpg"/>
-<img align="center" width="250" src="https://raw.githubusercontent.com/khoyron/DatePickerView/master/image/calendar_horizontal_double_selected.jpg"/><br />
-
-<img align="left" width="250" src="https://raw.githubusercontent.com/khoyron/DatePickerView/master/image/demo.gif?raw=true"></a><br />
+<img align="center" width="250" src="https://raw.githubusercontent.com/khoyron/DatePickerView/master/image/calendar_horizontal_double_selected.jpg"/>
+<img align="center" width="250" src="https://raw.githubusercontent.com/khoyron/DatePickerView/master/image/demo.gif?raw=true"></a><br />
 
 ## Installation
 
