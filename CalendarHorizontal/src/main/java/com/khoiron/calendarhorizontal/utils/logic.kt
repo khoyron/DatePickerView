@@ -13,6 +13,6 @@ fun convertFormatDate(stringDate :String, formatInput:String, formatOutput:Strin
         val format = SimpleDateFormat(formatOutput, Locale.ENGLISH)//"EEEE, yyyy-MM-dd"
         return format.format(cal.getTime())
     }catch (e: Exception){
-        return DatePickerKey.formatDate
+        return ""
     }
 }

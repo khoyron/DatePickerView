@@ -183,6 +183,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
                 <TextView
+                    android:id="@+id/tv_switch_horizontal"
                     android:textSize="12sp"
                     android:layout_marginBottom="4dp"
                     android:textColor="@color/colorTitleMonthXiaomi"
@@ -372,6 +373,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
                 <TextView
+                    android:id="@+id/tv_switch_vertical"
                     android:textSize="12sp"
                     android:layout_marginBottom="4dp"
                     android:textColor="@color/colorTitleMonthXiaomi"
