@@ -267,7 +267,7 @@ class CalendarVertical : LinearLayout,
         CodeDatePicker.formatDateOutput = format
     }
 
-    fun setMassageWarningSelectPreviosDate(message: String){
+    fun setMessageWarningSelectPreviosDate(message: String){
         CodeDatePicker.titleWarningPreviousDate = message
     }
 

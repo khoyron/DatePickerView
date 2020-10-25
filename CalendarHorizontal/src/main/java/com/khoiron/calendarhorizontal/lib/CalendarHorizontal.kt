@@ -161,7 +161,7 @@ class CalendarHorizontal : LinearLayout,
         DatePickerKey.formatDateOutput = format
     }
 
-    fun setMassageWarningSelectPreviosDate(message:String){
+    fun setMessageWarningSelectPreviosDate(message:String){
         DatePickerKey.titleWarningPreviousDate = message
     }
 

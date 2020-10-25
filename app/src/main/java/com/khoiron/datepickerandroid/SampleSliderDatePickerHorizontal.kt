@@ -22,6 +22,18 @@ class SampleSliderDatePickerHorizontal : BaseActivity(),CallbackCalendarHorizont
         else {
             calendar_view_horizontal.typeSelected(DatePickerKey.SINGGLE_SELECTED)
         }
+
+        calendar_view_horizontal.callbackCalendarListener(object :CallbackCalendarHorizontal{
+            override fun startDate(string: String) {
+
+            }
+
+            override fun endDate(string: String) {
+
+            }
+
+        })
+
         // other feature
 //        calendar_view_horizontal.setStartDateSelected(SimpleDateFormat("dd MM yyyy").parse("26 10 2020"))
 //        calendar_view_horizontal.setEndDateSelected(SimpleDateFormat("dd MM yyyy").parse("27 10 2020"))
