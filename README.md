@@ -3,13 +3,12 @@
 [![API](https://img.shields.io/badge/API-16%2B-red.svg?style=flat)](https://android-arsenal.com/api?level=16)
 [![](https://jitpack.io/v/mkhoiron/Actionsheet-android.svg)](https://jitpack.io/#mkhoiron/Actionsheet-android/4)
 
-Android date picker with custom view
+Android date picker with custom view , can be for single selection or range selection , date result format etc.
 
 <img align="left" width="250" src="https://raw.githubusercontent.com/khoyron/DatePickerView/master/image/calendar_vertical.jpg"/>
 <img align="left" width="250" src="https://raw.githubusercontent.com/khoyron/DatePickerView/master/image/calendar_horizontal_singel_selected.jpg"/>
-<img align="center" width="250" src="https://raw.githubusercontent.com/khoyron/DatePickerView/master/image/calendar_horizontal_double_selected.jpg"/><br />
-
-![](image/demo.gif)
+<img align="center" width="250" src="https://raw.githubusercontent.com/khoyron/DatePickerView/master/image/calendar_horizontal_double_selected.jpg"/>
+<img align="center" width="250" src="https://raw.githubusercontent.com/khoyron/DatePickerView/master/image/demo.gif?raw=true"></a><br />
 
 ## Installation
 
@@ -57,6 +56,8 @@ dependencies {
    
 ```
 
+## Using Kotlin
+
 ```kotlin
 
        calendar_view_horizontal.typeSelected(DatePickerKey.SINGGLE_SELECTED) // or CodeDatePicker.DOUBLE_SELECTED
@@ -101,7 +102,7 @@ Function      		               | description
 `setStartDateSelected()`  	       | set start selected date
 `setEndDateSelected()`                 | set end selected date
 `setMinDate()` 	                       | set min date view select
-`setMaxDate()`                         | set min date view select
+`setMaxDate()`                         | set max date view select
 `setFormatDateOutput()`  	       | set format date for output
 `setMessageWarningSelectPreviosDate()` | set message warning select previous date
 `typeSelected()`  		       | set type selected, singel or double select
