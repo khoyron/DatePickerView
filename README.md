@@ -27,8 +27,8 @@ allprojects {
  
 ```gradle
 dependencies {
-	implementation 'com.github.khoyron.DatePickerView:CalendarVertical:1.2'
-	implementation 'com.github.khoyron.DatePickerView:CalendarHorizontal:1.2'
+    implementation 'com.github.khoyron.DatePickerView:CalendarHorizontal:1.2'
+    implementation 'com.github.khoyron.DatePickerView:CalendarHorizontal:1.2'
 }
 ```
 
@@ -74,7 +74,7 @@ dependencies {
 
         })
         
-      calendar_view_vertical.typeSelected(DatePickerKey.SINGGLE_SELECTED) // or CodeDatePicker.DOUBLE_SELECTED
+      calendar_view_vertical.typeSelected(CodeDatePicker.SINGGLE_SELECTED) // or CodeDatePicker.DOUBLE_SELECTED
       calendar_view_vertical.callbackCalendarListener(object :CallbackCalendarHorizontal{
             override fun startDate(string: String) {
                 
