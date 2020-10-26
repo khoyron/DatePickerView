@@ -27,8 +27,8 @@ allprojects {
  
 ```gradle
 dependencies {
-	implementation 'com.github.khoyron:DatePickerView:CalendarVertical:1'
-	implementation 'com.github.khoyron:DatePickerView:CalendarHorizontal:1'
+	implementation 'com.github.khoyron.DatePickerView:CalendarVertical:1.2'
+	implementation 'com.github.khoyron.DatePickerView:CalendarHorizontal:1.2'
 }
 ```
 
