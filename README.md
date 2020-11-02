@@ -108,7 +108,7 @@ Function      		               | description
 `setFormatDateOutput()`  	       | set format date for output
 `setMessageWarningSelectPreviosDate()` | set message warning select previous date
 `typeSelected()`  		       | set type selected, singel or double select
-`setTextFontMonthHeader(min, max)`     | set font month header
+`setTextFontMonthHeader()`             | set font month header
 `setTextFontDay()`	               | set font day
 `setTextFontDayHeader()`	       | set font title day calendar vertical
 `setFontTitleDayHeader()`              | set font title day calendar horizontal
